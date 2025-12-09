@@ -23,7 +23,7 @@ export default function TrendingNow() {
   }, []);
 
   return (
-   <div>
+   <div className="trending-now-container">
   <h2 className="title">Trending Now</h2>
   <div className="signup-trending-cards-row">
     {movies.map((movie, index) => (

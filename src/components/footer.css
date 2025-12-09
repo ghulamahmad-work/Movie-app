@@ -1,17 +1,20 @@
-
 .footer-signin {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  min-height: 190px;
+  min-height: 150px;
   color: #a6a6a6;
   background: linear-gradient(to right, #afa546, #100f0f);
-  padding: 30px;
+  height: 180px;
+  padding-left: 40px;
+  
+  
   z-index: 10;
 }
 .footer{
   font-family: "Raleway", sans-serif;
+  
 
 }
 .footer-signup {
@@ -32,7 +35,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .footer-column {
@@ -57,8 +60,7 @@
 
 .footer-bottom p {
  color: #000000;
-  margin-top: 25px;
   font-size: 0.9rem;
-    font-weight:600;
+   font-weight:600;
 
 }

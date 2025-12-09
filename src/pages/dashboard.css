@@ -1,4 +1,3 @@
-
 .dashboard {
   background: linear-gradient(to right, #100f0f, #afa546);
   min-height: 100vh;
@@ -17,7 +16,7 @@
 
 .mylist-on-banner .rows {
   display: flex;
-  gap: 60px;
+  gap: 40px;
   overflow-x: auto;
   padding: 10px ;
   padding-left: 20px;
@@ -36,12 +35,12 @@
 
 .rows {
   display: flex;
-  gap: 60px;
+  gap: 40px;
   overflow-x: auto;
   padding: 10px ;
   padding-left: 20px;
   align-items: center;
-  height: 260px;  
+  height: 290px;  
   margin-bottom: 20px;      
 }
 
