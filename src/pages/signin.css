@@ -1,0 +1,140 @@
+.signin-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 70px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)),
+    url("../assets/login_bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.logo {
+  position: absolute;
+  top: 22px;
+  left: 115px;
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: yellow;
+  font-family: "Raleway", sans-serif;
+}
+
+.login-form {
+  position: relative;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem 2.2rem; 
+  border-radius: 20px;
+  width: 380px; 
+  box-sizing: border-box; 
+  border: 1px solid rgba(242, 242, 242, 0.3);
+}
+
+.login-form h1 {
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.login-form input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ebebeb;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-size: 1rem;
+}
+
+.login-form input::placeholder {
+  color: #dbdbdb;
+  opacity: 0.7;
+}
+.remember-area {
+  margin: 10px 0 20px 0;
+
+}
+
+.remember-area label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  color: #ddd;
+  cursor: pointer;
+  user-select: none;
+}
+
+.remember-area input[type="checkbox"] {
+  appearance: none;
+  margin-top: 10px;
+  width: 10px;
+  height: 10px;
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+
+.remember-area input[type="checkbox"]:checked {
+  background-color: yellow;
+  border-color: yellow;
+}
+
+.remember-area input[type="checkbox"]:checked::after {
+  content: "✔";
+  font-size: 22px;
+  color: black;
+  position: absolute;
+  top: -5px;
+  left: 2px;
+  font-weight: bold;
+}
+
+.error {
+  color: #ff4c4c;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  text-shadow: 0 0 5px #ff4c4c;
+}
+.login-form button {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 10px;
+  background-color: yellow;
+  color: #000000;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.login-form button:hover{
+background-color: rgb(209, 209, 92);
+}
+p {
+  color: #dbdbdb;
+}
+.signup-link {
+  color: #eaeded;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}

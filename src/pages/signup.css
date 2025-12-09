@@ -1,0 +1,177 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.signup-page {
+  position: relative;
+  min-height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-top: 70px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6)),
+    url("../assets/login_bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo {
+  position: absolute;
+  top: 22px;
+  left: 70px;
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: yellow;
+  font-family: "Raleway", sans-serif;
+}
+.signin-link-container {
+  position: absolute;
+  top: 40px;
+  right: 135px;
+  color: rgb(237, 237, 237);
+  background-color: yellow;
+  font-family: "Raleway", sans-serif;
+  padding: 4px;
+  border-radius: 5px;
+}
+.signin-link-container:hover {
+  background-color: rgb(209, 209, 92);
+}
+.signin-link {
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 550;
+}
+.centeral-area {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 100px 20px 120px;
+}
+.centeral-area h1 {
+  font-size: 3.3rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.centeral-area p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.email-area {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.email-area input {
+  padding: 15px;
+  font-size: 1.1rem;
+  width: 60%;
+  max-width: 400px;
+  border: 1px solid white;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  border-radius: 4px;
+}
+
+.email-area button {
+  padding: 15px 25px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background: yellow;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.email-area button:hover {
+  background-color: rgb(209, 209, 92);
+}
+
+.trending-container {
+  padding: 10px 50px 10px 50px;
+  background: linear-gradient(to right, #afa546, #100f0f);
+}
+
+.title {
+  font-size: 1.8rem;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  width: 200px;
+  margin-left: 16px;
+}
+
+.signup-trending-cards-row {
+  display: flex;
+  gap: 70px;
+  overflow-x: auto;
+  padding: 20px;
+  height: 288px;
+  transform-origin: center;
+}
+.signup-trending-cards-row::-webkit-scrollbar {
+  display: none;
+}
+.signup-trending-card {
+  position: relative;
+  width: 160px;
+  height: 250px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.signup-trending-card:hover {
+  transform: scale(1.15);
+  z-index: 10;
+  transition: transform 0.3s ease;
+}
+
+.signup-trending-card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.play-icon {
+  position: absolute;
+  pointer-events: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  color: #ffd700;
+  opacity: 0; 
+  transition: opacity 0.3s ease;
+}
+
+.signup-trending-card:hover .play-icon {
+  opacity: 1;
+}
+.rank {
+  position: absolute;
+  top: 114px;
+  left: 2px;
+  font-size: 120px;
+  font-weight: 900;
+  color: transparent;
+  -webkit-text-stroke: 4px rgba(219, 229, 32, 0.8);
+  z-index: 1;
+  font-family: "Arial Black", sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+hr {
+  width: 100%;
+  border: none;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.3);
+}

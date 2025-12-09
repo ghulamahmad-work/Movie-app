@@ -1,0 +1,95 @@
+.dashboard {
+  background: linear-gradient(to right, #100f0f, #afa546);
+  min-height: 100vh;
+  color: white;
+  overflow-x: hidden;
+
+}
+
+.mylist-on-banner {
+  position: relative;     
+  margin-top: -280px;     
+  padding-left: 40px;      
+  color: white;
+  z-index: 2;
+}
+
+.mylist-on-banner .rows {
+  display: flex;
+  gap: 60px;
+  overflow-x: auto;
+  padding: 10px ;
+  padding-left: 20px;
+  align-items: center;
+  height: 260px;  
+  margin-bottom: 20px;          
+}
+
+.mylist-on-banner .cards {
+  width: 170px;
+  height: 230px;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.rows {
+  display: flex;
+  gap: 60px;
+  overflow-x: auto;
+  padding: 10px ;
+  padding-left: 20px;
+  align-items: center;
+  height: 260px;  
+  margin-bottom: 20px;      
+}
+
+.rows::-webkit-scrollbar {
+  display: none;
+}
+
+.cards {
+  width: 170px;
+  height: 230px;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.cards:hover {
+  transform: scale(1.15); 
+  z-index: 10;            
+  transition: transform 0.3s ease; 
+}
+.cards img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.play-icon {
+  position: absolute;
+  pointer-events: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;      
+  color: #FFD700;
+  opacity: 0;           
+  transition: opacity 0.3s ease;
+}
+
+.cards:hover .play-icon {
+  opacity: 1;            
+}
+.filtered-content {
+  padding: 40px;
+  padding-top: 80px;   
+  color: white;
+  min-height: 100vh;
+}
+
+.category-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}

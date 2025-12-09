@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Circle background -->
+  <circle cx="256" cy="256" r="240" fill="#0a0d10"></circle>
+
+  <!-- Yellow F -->
+  <g fill="#ffd700">
+    <!-- vertical bar -->
+    <rect x="165" y="120" width="90" height="280" rx="8"></rect>
+    <!-- top bar -->
+    <rect x="255" y="120" width="150" height="80" rx="8"></rect>
+    <!-- middle bar -->
+    <rect x="255" y="250" width="110" height="80" rx="8"></rect>
+  </g>
+</svg>
