@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 .banner {
   position: relative;
   top: 70px;
