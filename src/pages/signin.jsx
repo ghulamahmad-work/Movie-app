@@ -37,14 +37,14 @@ export default function SignIn() {
           <h1>Sign In</h1>
           <input
             type="text"
-            placeholder="Username"
+            placeholder="Username (abc)"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             required
           />
           <input
             type="password"
-            placeholder="Password"
+            placeholder="Password (aaa)"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
